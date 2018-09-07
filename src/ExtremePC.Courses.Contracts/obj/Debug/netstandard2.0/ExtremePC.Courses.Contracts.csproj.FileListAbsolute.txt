@@ -1,0 +1,8 @@
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\bin\Debug\netstandard2.0\ExtremePC.Courses.Contracts.deps.json
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\bin\Debug\netstandard2.0\ExtremePC.Courses.Contracts.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\bin\Debug\netstandard2.0\ExtremePC.Courses.Contracts.pdb
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.csproj.CoreCompileInputs.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.AssemblyInfoInputs.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.AssemblyInfo.cs
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.pdb

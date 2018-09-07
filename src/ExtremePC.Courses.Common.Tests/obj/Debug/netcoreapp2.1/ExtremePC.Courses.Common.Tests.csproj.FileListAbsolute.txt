@@ -1,0 +1,11 @@
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\bin\Debug\netcoreapp2.1\ExtremePC.Courses.Common.Tests.deps.json
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\bin\Debug\netcoreapp2.1\ExtremePC.Courses.Common.Tests.runtimeconfig.json
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\bin\Debug\netcoreapp2.1\ExtremePC.Courses.Common.Tests.runtimeconfig.dev.json
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\bin\Debug\netcoreapp2.1\ExtremePC.Courses.Common.Tests.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Common.Tests.csprojAssemblyReference.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Common.Tests.csproj.CoreCompileInputs.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Common.Tests.AssemblyInfoInputs.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common.Tests\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Common.Tests.AssemblyInfo.cs

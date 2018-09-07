@@ -1,0 +1,9 @@
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\bin\Debug\netcoreapp2.1\ExtremePC.Courses.Models.deps.json
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\bin\Debug\netcoreapp2.1\ExtremePC.Courses.Models.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\bin\Debug\netcoreapp2.1\ExtremePC.Courses.Models.pdb
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Models.csprojAssemblyReference.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Models.csproj.CoreCompileInputs.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Models.AssemblyInfoInputs.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Models.AssemblyInfo.cs
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Models.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netcoreapp2.1\ExtremePC.Courses.Models.pdb

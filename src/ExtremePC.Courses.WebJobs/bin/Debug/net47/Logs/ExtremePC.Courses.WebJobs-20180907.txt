@@ -1,0 +1,451 @@
+2018-09-07T00:01:54.7449993+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:02:15.7002792+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T00:02:15.9291306+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select (Nullable<int>)[<generated>_1].CourseId).FirstOrDe..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T00:02:16.1260308+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T00:02:16.1539042+02:00  [WRN] The LINQ expression '"FirstOrDefault()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T00:02:16.1674125+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on Convert({from CourseStudent <generated>_1 in [csg] select Convert([<generated>_1].CourseId) => FirstOrDefault()}) equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T00:02:16.5563051+02:00  [INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T00:02:16.6348609+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[Topic], [c].[MaxCapacity]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T00:02:16.7528148+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (1, 2, 3, 10)" (0723d8ff)
+2018-09-07T00:02:16.7668247+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (4, 5, 6)" (0723d8ff)
+2018-09-07T00:02:16.7698275+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (7, 8, 9)" (0723d8ff)
+2018-09-07T00:03:20.4834303+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:43:57.8095934+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:44:27.1374886+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T00:44:27.8261545+02:00  [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [f].[CourseId]
+FROM [Courses] AS [f]" (0723d8ff)
+2018-09-07T00:45:30.2516820+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:45:39.1672108+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T00:45:39.7774815+02:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [f].[CourseId]
+FROM [Courses] AS [f]" (0723d8ff)
+2018-09-07T00:45:39.9280748+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:46:40.7183267+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:46:45.3106285+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T00:46:45.8785544+02:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [f].[CourseId]
+FROM [Courses] AS [f]" (0723d8ff)
+2018-09-07T00:47:12.6379556+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:53:20.0620034+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:53:24.2711379+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T00:53:25.4163379+02:00  [INF] Executed DbCommand ("61"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [f].[CourseId]
+FROM [Courses] AS [f]" (0723d8ff)
+2018-09-07T00:53:25.5389243+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select (Nullable<int>)[<generated>_1].CourseId).FirstOrDe..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T00:54:34.5316830+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:54:41.0349543+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T00:54:41.5737564+02:00  [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [f].[CourseId]
+FROM [Courses] AS [f]" (0723d8ff)
+2018-09-07T00:54:55.1608737+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select (Nullable<int>)[<generated>_1].CourseId).FirstOrDe..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T00:57:39.8449606+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:57:49.8626244+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T00:57:50.1649403+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select (Nullable<int>)[<generated>_1].CourseId).FirstOrDe..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T00:59:09.4846144+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T00:59:13.4557374+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T00:59:13.6994108+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select (Nullable<int>)[<generated>_1].CourseId).FirstOrDe..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:01:53.5055897+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:01:54.7038340+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:02:39.2471165+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:03:04.9367940+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:03:05.1699896+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:03:05.3801250+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:03:05.4086450+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:03:05.4241561+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:03:05.7962743+02:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:03:05.8898404+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:04:19.6892694+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:04:28.7536034+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:04:29.0342987+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:04:29.2350572+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:04:29.2635785+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:04:29.2765870+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:04:29.2785898+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:04:29.6343807+02:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:04:29.7209404+02:00  [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:04:29.7519652+02:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:06:15.5877909+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:06:19.3050267+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:07:59.4805584+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:08:04.6000823+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:08:04.8457616+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:08:05.0499057+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:08:05.0779264+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:08:05.0914356+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:08:05.0934370+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:08:05.4503405+02:00  [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:08:05.5374008+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:08:05.5714248+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:09:13.7394047+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:09:20.8296834+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:09:21.1193884+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:09:21.3305364+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:09:21.3570550+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:09:21.3710644+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:09:21.3725669+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:09:21.7288871+02:00  [INF] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:09:21.8189480+02:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:09:21.8594783+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:10:27.3224035+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:10:32.1102712+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:10:32.3539438+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:10:32.5731719+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:10:32.6046947+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:10:32.6162020+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:10:32.6192057+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:10:32.9780110+02:00  [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:10:33.0615692+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:10:33.0890888+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:10:43.2820647+02:00  [INF] Executed DbCommand ("35"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:10:53.8809173+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:10:55.9442088+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:14:53.2328683+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:14:57.8351686+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:14:58.0843572+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:14:58.2814957+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:14:58.3078983+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:14:58.3214071+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:14:58.3229074+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:14:58.7408117+02:00  [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:14:58.8278725+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:14:58.8596211+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:14:58.9486838+02:00  [INF] Executed DbCommand ("4"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:14:59.4064004+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:18:02.7744912+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:18:07.7650442+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:18:08.0262284+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:18:08.2338746+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:18:08.2643960+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:18:08.2784073+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:18:08.2799080+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:18:08.6190825+02:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:18:08.7106491+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:18:08.7441724+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:18:14.9805685+02:00  [INF] Executed DbCommand ("5"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:19:31.6123732+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:19:36.8420109+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:19:37.0821671+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:19:37.3073258+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:19:37.3368476+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:19:37.3513569+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:19:37.3528594+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:19:37.6841068+02:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:19:37.7796597+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:19:37.8076799+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:19:42.4700498+02:00  [INF] Executed DbCommand ("4"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:25:38.4700168+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:25:44.8768685+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:25:45.1100744+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:25:45.3092464+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:25:45.3352626+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:25:45.3487744+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:25:45.3502738+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:25:45.6577131+02:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:25:45.7567838+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:25:45.7873038+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:25:45.8758667+02:00  [INF] Executed DbCommand ("3"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:26:11.4041138+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:26:20.6604500+02:00  [INF] Executed DbCommand ("3"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:26:33.2033309+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:29:57.0820793+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:30:03.3810415+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T01:30:03.6253132+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select (Nullable<int>)[<generated>_1].CourseId).FirstOrDe..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:30:03.8319902+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:30:03.8610107+02:00  [WRN] The LINQ expression '"FirstOrDefault()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:30:03.8755303+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on Convert({from CourseStudent <generated>_1 in [csg] select Convert([<generated>_1].CourseId) => FirstOrDefault()}) equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:30:05.7580508+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T01:30:05.7650551+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:30:05.7660565+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:30:05.7670575+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:30:05.7690611+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T01:30:05.8230970+02:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:30:05.9121602+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[Topic], [c].[MaxCapacity]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:30:05.9842120+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:30:05.9897156+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:30:05.9977217+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:30:06.0677716+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (1, 2, 3, 10)" (0723d8ff)
+2018-09-07T01:30:06.0947902+02:00  [INF] Executed DbCommand ("3"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:30:11.6077056+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (4, 5, 6)" (0723d8ff)
+2018-09-07T01:30:11.6122078+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (7, 8, 9)" (0723d8ff)
+2018-09-07T01:30:12.0095049+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:30:12.0665458+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:30:12.0930646+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:30:12.6774815+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T01:30:17.3288620+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:30:18.0827495+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[Topic], [c].[MaxCapacity]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:30:18.1432917+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T01:30:18.1452940+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T01:30:18.1467938+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T01:30:18.1502969+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (1, 2, 3, 10)" (0723d8ff)
+2018-09-07T01:30:18.1522974+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:30:18.1578015+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (4, 5, 6)" (0723d8ff)
+2018-09-07T01:30:18.1598047+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (7, 8, 9)" (0723d8ff)
+2018-09-07T01:30:18.2614209+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:30:18.2939426+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T01:30:18.3334700+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T02:05:00.0457128+02:00  [INF] Got message from queue (eac8923d)
+2018-09-07T02:05:00.0682282+02:00  [INF] Student deserialization successful (808efbeb)
+2018-09-07T02:05:46.7754971+02:00  [INF] Attempt to sign-up student Arek Kusztal to courseId 3 (9efad9d3)
+2018-09-07T02:05:46.8455475+02:00  [INF] Got message from queue (eac8923d)
+2018-09-07T02:05:46.8885772+02:00  [INF] Student deserialization successful (808efbeb)
+2018-09-07T02:05:46.9381122+02:00  [INF] Attempt to sign-up student Jakub Malinowski to courseId 3 (c21318f4)
+2018-09-07T02:05:47.0606982+02:00  [ERR] An attempt was made to use the context while it is being configured. A DbContext instance cannot be used inside OnConfiguring since it is still being configured at this point. This can happen if a second operation is started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe. (be6203fa)
+2018-09-07T02:05:47.0812126+02:00  [INF] Got message from queue (eac8923d)
+2018-09-07T02:05:47.0857179+02:00  [INF] Processing message finished (368ec234)
+2018-09-07T02:05:47.1102333+02:00  [INF] Student deserialization successful (808efbeb)
+2018-09-07T02:05:47.1137350+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-07T02:05:47.1152370+02:00  [INF] Attempt to sign-up student Jacek Kowalski to courseId 3 (e625d5a7)
+2018-09-07T02:05:50.0134680+02:00  [INF] Got message from queue (eac8923d)
+2018-09-07T02:05:50.0174690+02:00  [INF] Student deserialization successful (808efbeb)
+2018-09-07T02:05:50.0204723+02:00  [INF] Attempt to sign-up student Wojciech Kmiecik to courseId 1 (20e737ff)
+2018-09-07T02:05:50.5364717+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-07T02:05:50.7682166+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select (Nullable<int>)[<generated>_1].CourseId).FirstOrDe..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T02:05:50.9608507+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T02:05:50.9928733+02:00  [WRN] The LINQ expression '"FirstOrDefault()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T02:05:51.0123867+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on Convert({from CourseStudent <generated>_1 in [csg] select Convert([<generated>_1].CourseId) => FirstOrDefault()}) equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T02:05:51.1209883+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId).First()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-07T02:05:51.1269912+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T02:05:51.1285294+02:00  [WRN] The LINQ expression '"First()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T02:05:51.1300301+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on {from CourseStudent <generated>_1 in [csg] select [<generated>_1].CourseId => First()} equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T02:05:51.1325309+02:00  [WRN] The LINQ expression '"join Teacher t in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Teacher]) on [c].TeacherId equals [t].TeacherId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-07T02:05:51.3257406+02:00  [INF] Executed DbCommand ("7"ms) [Parameters=["@__get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[CourseId], [e].[MaxCapacity], [e].[TeacherId], [e].[Topic]
+FROM [Courses] AS [e]
+WHERE [e].[CourseId] = @__get_Item_0" (0723d8ff)
+2018-09-07T02:05:51.4654116+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[CourseId], [e].[MaxCapacity], [e].[TeacherId], [e].[Topic]
+FROM [Courses] AS [e]
+WHERE [e].[CourseId] = @__get_Item_0" (0723d8ff)
+2018-09-07T02:05:51.4699160+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[CourseId], [e].[MaxCapacity], [e].[TeacherId], [e].[Topic]
+FROM [Courses] AS [e]
+WHERE [e].[CourseId] = @__get_Item_0" (0723d8ff)
+2018-09-07T02:05:51.9642640+02:00  [ERR] A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe. (d77fce3b)
+2018-09-07T02:05:51.9907831+02:00  [INF] Processing message finished (368ec234)
+2018-09-07T02:05:52.0233059+02:00  [ERR] A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe. (d77fce3b)
+2018-09-07T02:05:52.0448065+02:00  [ERR] A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe. (d77fce3b)
+2018-09-07T02:05:52.0488098+02:00  [INF] Processing message finished (368ec234)
+2018-09-07T02:05:52.0733274+02:00  [INF] Processing message finished (368ec234)
+2018-09-07T02:05:52.0928418+02:00  [INF] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T02:05:52.3320108+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[Topic], [c].[MaxCapacity]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T02:05:52.4100646+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-07T02:05:52.4135671+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[TeacherId], [c].[Topic]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-07T02:05:52.4250749+02:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TeacherId], [t].[FirstName], [t].[LastName]
+FROM [Teachers] AS [t]" (0723d8ff)
+2018-09-07T02:05:52.4606006+02:00  [INF] Executed DbCommand ("3"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T02:05:52.4936237+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (1, 2, 3, 10)" (0723d8ff)
+2018-09-07T02:05:52.5076336+02:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (4, 5, 6)" (0723d8ff)
+2018-09-07T02:05:52.5116386+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (7, 8, 9)" (0723d8ff)
+2018-09-07T02:05:52.8733954+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T02:05:52.9164265+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__course_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[StudentId], [s].[Age], [s].[FirstName], [s].[LastName]
+FROM [CourseStudents] AS [cs]
+INNER JOIN [Students] AS [s] ON [cs].[StudentId] = [s].[StudentId]
+WHERE [cs].[CourseId] = @__course_CourseId_0" (0723d8ff)
+2018-09-07T02:05:52.9499494+02:00  [INF] Attempt to calculate statistics (510e61eb)

@@ -1,0 +1,58 @@
+2018-09-06T16:41:09.6288586+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-06T16:41:12.3783535+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-06T17:00:04.1987110+02:00  [INF] Got message from queue (eac8923d)
+2018-09-06T17:00:04.1987110+02:00  [INF] Got message from queue (eac8923d)
+2018-09-06T17:00:30.6183374+02:00  [INF] Student deserialization successful (808efbeb)
+2018-09-06T17:00:30.6268464+02:00  [INF] Student deserialization successful (808efbeb)
+2018-09-06T17:00:48.1959813+02:00  [INF] Attempt to sign-up student Andrzej Kmiecik to courseId 1 (98cf9208)
+2018-09-06T17:00:48.9867794+02:00  [INF] Attempt to sign-up student Daniel Kmiecik to courseId 1 (30da7eb7)
+2018-09-06T17:01:06.3584871+02:00  [ERR] An attempt was made to use the context while it is being configured. A DbContext instance cannot be used inside OnConfiguring since it is still being configured at this point. This can happen if a second operation is started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe. (be6203fa)
+2018-09-06T17:01:06.3594898+02:00  [INF] Processing message finished (368ec234)
+2018-09-06T17:01:09.9153578+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-06T17:01:12.7593449+02:00  [INF] Executed DbCommand ("9"ms) [Parameters=["@__get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[CourseId], [e].[MaxCapacity], [e].[TeacherId], [e].[Topic]
+FROM [Courses] AS [e]
+WHERE [e].[CourseId] = @__get_Item_0" (0723d8ff)
+2018-09-06T17:01:23.6248816+02:00  [INF] Executed DbCommand ("8"ms) [Parameters=["@__signupStudent_CourseId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+WHERE [cs].[CourseId] = @__signupStudent_CourseId_0" (0723d8ff)
+2018-09-06T17:01:39.0619322+02:00  [INF] Executed DbCommand ("4"ms) [Parameters=["@p0='?' (Size = 1) (DbType = Byte), @p1='?' (Size = 4000), @p2='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Students] ([Age], [FirstName], [LastName])
+VALUES (@p0, @p1, @p2);
+SELECT [StudentId]
+FROM [Students]
+WHERE @@ROWCOUNT = 1 AND [StudentId] = scope_identity();" (0723d8ff)
+2018-09-06T17:01:39.1185550+02:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [CourseStudents] ([CourseId], [StudentId])
+VALUES (@p3, @p4);" (0723d8ff)
+2018-09-06T17:01:42.2199572+02:00  [INF] Sign-up successful for student Andrzej Kmiecik to courseId 1 (4433267d)
+2018-09-06T17:01:59.8032885+02:00  [INF] Confirmation Email sent (e025a341)
+2018-09-06T17:02:02.5248775+02:00  [INF] Processing message finished (368ec234)
+2018-09-06T21:44:06.1655929+02:00  [INF] Attempt to calculate statistics (510e61eb)
+2018-09-06T21:45:10.0255097+02:00  [INF] Entity Framework Core "2.1.2-rtm-30932" initialized '"CoursesDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-09-06T21:45:10.2702055+02:00  [WRN] Query: '"(from CourseStudent <generated>_1 in [csg] select (Nullable<int>)[<generated>_1].CourseId).FirstOrDe..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results. (6af4db4b)
+2018-09-06T21:45:10.4622929+02:00  [WRN] The LINQ expression '"GroupBy([cs].CourseId, [cs])"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-06T21:45:10.4893140+02:00  [WRN] The LINQ expression '"FirstOrDefault()"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-06T21:45:10.5013229+02:00  [WRN] The LINQ expression '"join Course c in value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[ExtremePC.Courses.Models.Course]) on Convert({from CourseStudent <generated>_1 in [csg] select Convert([<generated>_1].CourseId) => FirstOrDefault()}) equals [c].CourseId"' could not be translated and will be evaluated locally. (011792c6)
+2018-09-06T21:45:10.8403297+02:00  [INF] Executed DbCommand ("83"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [cs].[CourseId], [cs].[StudentId]
+FROM [CourseStudents] AS [cs]
+ORDER BY [cs].[CourseId]" (0723d8ff)
+2018-09-06T21:45:10.9183825+02:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseId], [c].[Topic], [c].[MaxCapacity]
+FROM [Courses] AS [c]" (0723d8ff)
+2018-09-06T21:45:26.9874730+02:00  [INF] Executed DbCommand ("33"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (1, 2, 3, 10)" (0723d8ff)
+2018-09-06T21:45:48.0008064+02:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (4, 5, 6)" (0723d8ff)
+2018-09-06T21:45:48.0468371+02:00  [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Age]
+FROM [Students] AS [x]
+WHERE [x].[StudentId] IN (7, 8, 9)" (0723d8ff)

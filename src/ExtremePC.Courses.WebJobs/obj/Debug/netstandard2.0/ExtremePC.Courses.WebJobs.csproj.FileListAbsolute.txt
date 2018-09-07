@@ -1,0 +1,10 @@
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\bin\Debug\netstandard2.0\appsettings.Development.json
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\bin\Debug\netstandard2.0\appsettings.json
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\bin\Debug\netstandard2.0\ExtremePC.Courses.WebJobs.deps.json
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\bin\Debug\netstandard2.0\ExtremePC.Courses.WebJobs.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\bin\Debug\netstandard2.0\ExtremePC.Courses.WebJobs.pdb
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\obj\Debug\netstandard2.0\ExtremePC.Courses.WebJobs.csproj.CoreCompileInputs.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\obj\Debug\netstandard2.0\ExtremePC.Courses.WebJobs.AssemblyInfoInputs.cache
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\obj\Debug\netstandard2.0\ExtremePC.Courses.WebJobs.AssemblyInfo.cs
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\obj\Debug\netstandard2.0\ExtremePC.Courses.WebJobs.dll
+C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.WebJobs\obj\Debug\netstandard2.0\ExtremePC.Courses.WebJobs.pdb

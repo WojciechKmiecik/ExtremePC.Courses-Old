@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ExtremePC.Courses.WebJobs": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "registerstudentqueue": "UseDevelopmentStorage=true",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
