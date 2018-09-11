@@ -4871,6 +4871,9 @@
       "ExtremePC.Courses.Models/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
         "compile": {
           "bin/placeholder/ExtremePC.Courses.Models.dll": {}
         },
@@ -12753,11 +12756,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.WebApi\\ExtremePC.Courses.WebApi.csproj",
+      "projectUniqueName": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.WebApi\\ExtremePC.Courses.WebApi.csproj",
       "projectName": "ExtremePC.Courses.WebApi",
-      "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.WebApi\\ExtremePC.Courses.WebApi.csproj",
+      "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.WebApi\\ExtremePC.Courses.WebApi.csproj",
       "packagesPath": "C:\\Users\\Wojciech.Kmiecik\\.nuget\\packages\\",
-      "outputPath": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.WebApi\\obj\\",
+      "outputPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12777,17 +12780,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Common\\ExtremePC.Courses.Common.csproj": {
-              "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Common\\ExtremePC.Courses.Common.csproj"
+            "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Common\\ExtremePC.Courses.Common.csproj": {
+              "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Common\\ExtremePC.Courses.Common.csproj"
             },
-            "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Contracts\\ExtremePC.Courses.Contracts.csproj": {
-              "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Contracts\\ExtremePC.Courses.Contracts.csproj"
+            "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Contracts\\ExtremePC.Courses.Contracts.csproj": {
+              "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Contracts\\ExtremePC.Courses.Contracts.csproj"
             },
-            "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Database\\ExtremePC.Courses.Database.csproj": {
-              "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Database\\ExtremePC.Courses.Database.csproj"
+            "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Database\\ExtremePC.Courses.Database.csproj": {
+              "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Database\\ExtremePC.Courses.Database.csproj"
             },
-            "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Models\\ExtremePC.Courses.Models.csproj": {
-              "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Models\\ExtremePC.Courses.Models.csproj"
+            "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Models\\ExtremePC.Courses.Models.csproj": {
+              "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Models\\ExtremePC.Courses.Models.csproj"
             }
           }
         }

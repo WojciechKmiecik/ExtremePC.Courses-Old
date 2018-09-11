@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Contracts\\ExtremePC.Courses.Contracts.csproj",
+      "projectUniqueName": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Contracts\\ExtremePC.Courses.Contracts.csproj",
       "projectName": "ExtremePC.Courses.Contracts",
-      "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Contracts\\ExtremePC.Courses.Contracts.csproj",
+      "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Contracts\\ExtremePC.Courses.Contracts.csproj",
       "packagesPath": "C:\\Users\\Wojciech.Kmiecik\\.nuget\\packages\\",
-      "outputPath": "C:\\ExtremePC\\ExtremePC.Courses\\ExtremePC.Courses.Contracts\\obj\\",
+      "outputPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
