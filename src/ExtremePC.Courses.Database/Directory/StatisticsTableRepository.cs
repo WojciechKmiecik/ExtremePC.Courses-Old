@@ -3,7 +3,6 @@ using ExtremePC.Courses.Common.Services;
 using ExtremePC.Courses.Models.TableModels;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ExtremePC.Courses.Database.Directory

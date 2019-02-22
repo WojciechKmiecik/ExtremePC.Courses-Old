@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ExtremePC.Courses.Models.TableModels
+﻿namespace ExtremePC.Courses.Models.TableModels
 {
     public class CourseCapacityStat : CourseBasicStat
     {

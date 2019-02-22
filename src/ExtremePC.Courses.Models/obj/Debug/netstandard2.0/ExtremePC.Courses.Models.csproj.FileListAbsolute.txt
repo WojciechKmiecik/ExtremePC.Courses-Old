@@ -10,3 +10,12 @@ C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netstandard2.0
 C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netstandard2.0\ExtremePC.Courses.Models.dll
 C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netstandard2.0\ExtremePC.Courses.Models.pdb
 C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Models\obj\Debug\netstandard2.0\ExtremePC.Courses.Models.csprojAssemblyReference.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Models\bin\Debug\netstandard2.0\ExtremePC.Courses.Models.deps.json
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Models\bin\Debug\netstandard2.0\ExtremePC.Courses.Models.dll
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Models\bin\Debug\netstandard2.0\ExtremePC.Courses.Models.pdb
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Models\obj\Debug\netstandard2.0\ExtremePC.Courses.Models.csprojAssemblyReference.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Models\obj\Debug\netstandard2.0\ExtremePC.Courses.Models.csproj.CoreCompileInputs.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Models\obj\Debug\netstandard2.0\ExtremePC.Courses.Models.AssemblyInfoInputs.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Models\obj\Debug\netstandard2.0\ExtremePC.Courses.Models.AssemblyInfo.cs
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Models\obj\Debug\netstandard2.0\ExtremePC.Courses.Models.dll
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Models\obj\Debug\netstandard2.0\ExtremePC.Courses.Models.pdb

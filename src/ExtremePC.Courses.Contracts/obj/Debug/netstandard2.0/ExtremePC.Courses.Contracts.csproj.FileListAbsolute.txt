@@ -6,3 +6,12 @@ C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\obj\Debug\netstandard
 C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.AssemblyInfo.cs
 C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.dll
 C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.pdb
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Contracts\bin\Debug\netstandard2.0\ExtremePC.Courses.Contracts.deps.json
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Contracts\bin\Debug\netstandard2.0\ExtremePC.Courses.Contracts.dll
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Contracts\bin\Debug\netstandard2.0\ExtremePC.Courses.Contracts.pdb
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.csprojAssemblyReference.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.csproj.CoreCompileInputs.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.AssemblyInfoInputs.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.AssemblyInfo.cs
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.dll
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Contracts\obj\Debug\netstandard2.0\ExtremePC.Courses.Contracts.pdb

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ExtremePC.Courses.Models.ConfigOptions
+﻿namespace ExtremePC.Courses.Models.ConfigOptions
 {
     public class RegisterStudentJobOptions
     {

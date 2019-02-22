@@ -3,10 +3,7 @@ using ExtremePC.Courses.Models.ConfigOptions;
 using Microsoft.Extensions.Options;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Table;
-using System;
-using System.Collections.Generic;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ExtremePC.Courses.Common.Services

@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ExtremePC.Courses.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExtremePC.Courses.Database
 {

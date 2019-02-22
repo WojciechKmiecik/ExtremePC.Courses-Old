@@ -12,3 +12,15 @@ C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common\obj\Debug\netstandard2.0
 C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.csproj.CopyComplete
 C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.dll
 C:\ExtremePC\ExtremePC.Courses\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.pdb
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\bin\Debug\netstandard2.0\ExtremePC.Courses.Common.deps.json
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\bin\Debug\netstandard2.0\ExtremePC.Courses.Common.dll
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\bin\Debug\netstandard2.0\ExtremePC.Courses.Common.pdb
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\bin\Debug\netstandard2.0\ExtremePC.Courses.Models.dll
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\bin\Debug\netstandard2.0\ExtremePC.Courses.Models.pdb
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.csprojAssemblyReference.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.csproj.CoreCompileInputs.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.AssemblyInfoInputs.cache
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.AssemblyInfo.cs
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.csproj.CopyComplete
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.dll
+C:\Development\WojciechKmiecik\ExtremePC.Courses\src\ExtremePC.Courses.Common\obj\Debug\netstandard2.0\ExtremePC.Courses.Common.pdb

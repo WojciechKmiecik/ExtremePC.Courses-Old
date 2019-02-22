@@ -1,7 +1,6 @@
 using ExtremePC.Courses.Common.Services;
 using ExtremePC.Courses.Models.ConfigOptions;
 using Microsoft.Extensions.Options;
-using System;
 using Xunit;
 
 namespace ExtremePC.Courses.Common.Tests

@@ -9,7 +9,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Diagnostics;
-using Microsoft.Azure.WebJobs.Host.Executors;
 using ExtremePC.Courses.Models.ConfigOptions;
 using ExtremePC.Courses.Common.Services;
 using ExtremePC.Courses.WebJobs.Services;

@@ -39,10 +39,12 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -179,10 +181,11 @@
       ]
     },
     "System.ComponentModel.Annotations/4.5.0": {
-      "sha512": "IjDa643EO77A4CL9dhxfZ6zzGu+pM8Ar0NYPRMN3TvDiga4uGDzFHOj/ArpyNxxKyO5IFT2LZ0rK3kUog7g3jA==",
+      "sha512": "f1ApUHGWq/lJC8PZE7JqbA3tiY7ZngZQO2mbYfCG0JlQVVUqqmVMAy0fMvAwEuG639M47ELdP6PQxc5OIo6i6A==",
       "type": "package",
       "path": "system.componentmodel.annotations/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -274,32 +277,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wojciech.Kmiecik\\.nuget\\packages\\": {},
+    "C:\\Users\\Roland\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Models\\ExtremePC.Courses.Models.csproj",
+      "projectUniqueName": "C:\\Development\\WojciechKmiecik\\ExtremePC.Courses\\src\\ExtremePC.Courses.Models\\ExtremePC.Courses.Models.csproj",
       "projectName": "ExtremePC.Courses.Models",
-      "projectPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Models\\ExtremePC.Courses.Models.csproj",
-      "packagesPath": "C:\\Users\\Wojciech.Kmiecik\\.nuget\\packages\\",
-      "outputPath": "C:\\ExtremePC\\ExtremePC.Courses\\src\\ExtremePC.Courses.Models\\obj\\",
+      "projectPath": "C:\\Development\\WojciechKmiecik\\ExtremePC.Courses\\src\\ExtremePC.Courses.Models\\ExtremePC.Courses.Models.csproj",
+      "packagesPath": "C:\\Users\\Roland\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\WojciechKmiecik\\ExtremePC.Courses\\src\\ExtremePC.Courses.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Wojciech.Kmiecik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Roland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://bcc-alm.pkgs.visualstudio.com/_packaging/BCC/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
